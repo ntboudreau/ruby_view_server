@@ -1,0 +1,13 @@
+<!-- Some data for my great new site-->
+<% things_nick_likes_to_punch = ['punching bags', 'enemies', 'punch cards'] %>
+
+<h1>Nick's Great Page</h1>
+<p>Hi there, welcome to Nick's great page. Isn't it great!?!?</p>
+<hr>
+<p>Here are some things that Nick enjoys punching:</p>
+<ul>
+	<% things_nick_likes_to_punch.each do |punch_it| %>
+	<li><%= punch_it %></li>
+	<% end %>
+</ul>
+<p>Thanks for visiting!!!</p>
